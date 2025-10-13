@@ -21,9 +21,9 @@ const setupAndStartServer = () => {
         //     'Hey, How are you, I hope you like the support'
         // )
 
-        cron.schedule('*/2 * * * *', () => {
-            console.log('running a task every two minutes');
-        });
+        // cron.schedule('*/2 * * * *', () => {
+        //     console.log('running a task every two minutes');
+        // });
     });
 }
 
