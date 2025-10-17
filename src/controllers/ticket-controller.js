@@ -10,16 +10,15 @@ const create = async (req, res) => {
             message: 'Successfully registered an email reminder'
         });
     } catch (error) {
-        console.log(error);
         return res.status(500).json({
             success: false,
-            data: {},
+            data: response,
             err: error,
-            message: 'Unable to register an email reminder'
+            message: 'unable to register an email reminder'
         });
     }
-};
+}
 
 module.exports = {
     create
-};
+}
