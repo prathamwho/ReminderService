@@ -62,6 +62,7 @@ const subscribeEvents = async (payload) => {
     }
 }
 
+
 module.exports = {
     sendBasicEmail,
     fetchPendingEmails,
